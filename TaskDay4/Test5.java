@@ -19,6 +19,9 @@ public class Test5 {
         if (num3 > num1 && num3 > num2) {
             System.out.println(num3);
 
+        }else {
+            System.out.println("there is a equal numbers ");
+
         }
 
     }

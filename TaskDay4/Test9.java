@@ -8,7 +8,8 @@ public class Test9 {
         System.out.println("Enter number ");
         int inputNum = scanner.nextInt();
         if (inputNum%4==0){
-            System.out.println("year is a leap year ");
+            System.out.println("year is a leap year");
+
         } else {
             System.out.println("year is not a leap year" );
         }
