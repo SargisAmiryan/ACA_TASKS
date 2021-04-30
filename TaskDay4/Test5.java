@@ -9,20 +9,13 @@ public class Test5 {
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
         int num3 = scanner.nextInt();
-        if (num1 > num2 && num1 > num3) {
-            System.out.println(num1);
+        int max = num1;
+        if (max<=num2){
+            max=num2;
+        }else if (max<=num3){
+            max=num3;
         }
-        if (num2 > num1 && num2 > num3) {
-            System.out.println(num2);
-
-        }
-        if (num3 > num1 && num3 > num2) {
-            System.out.println(num3);
-
-        }else {
-            System.out.println("there is a equal numbers ");
-
-        }
+        System.out.println(max);
 
     }
 }
