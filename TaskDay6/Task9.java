@@ -6,14 +6,11 @@ public class Task9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double inputNum = scanner.nextInt();
-        int i = 1;
         int count = 0;
         int a = 1;
         while (inputNum > a) {
             a = a * 2;
             count++;
-            i++;
-
         }
         System.out.println(count);
     }
